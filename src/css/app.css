@@ -528,6 +528,35 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+.similar {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.similar h2 {
+  margin-bottom: 48px;
+}
+.similar__items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px 50px;
+}
+.similar__item {
+  text-align: center;
+}
+.similar img {
+  margin-bottom: 17px;
+  max-width: 250px;
+  width: 100%;
+  max-height: 250px;
+}
+.similar h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 @media (max-width: 850px) {
   .news__item {
     flex-wrap: wrap;
@@ -552,6 +581,9 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
   }
   .discography__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .similar__items {
     grid-template-columns: repeat(2, 1fr);
   }
 }
