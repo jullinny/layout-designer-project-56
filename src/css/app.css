@@ -119,31 +119,31 @@ h3 {
   padding: 0 20px;
 }
 
-.menu-list {
+.menu__list {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
 }
-.menu-list-item {
+.menu__list-item {
   font-size: 11px;
   font-weight: 400;
   line-height: 16.5px;
   text-transform: uppercase;
   margin-right: 24px;
 }
-.menu-list-search {
+.menu__list-search {
   margin-right: 0;
   margin-left: auto;
 }
-.menu-input {
+.menu__input {
   border-radius: 50px;
   background-color: #3C3B3D;
   width: 248px;
   height: 25px;
   padding: 5px 10px;
 }
-.menu-input::placeholder {
+.menu__input::placeholder {
   color: #757575;
   font-family: Arial;
   font-size: 13.3px;
@@ -184,27 +184,27 @@ h3 {
   background-position: center;
   color: #fff;
 }
-.intro-inner {
+.intro__inner {
   padding: 200px 0;
   text-align: center;
 }
-.intro-inner h2 {
+.intro__inner h2 {
   margin-bottom: 31px;
 }
-.intro-inner p {
+.intro__inner p {
   margin-bottom: 17px;
 }
-.intro-form {
+.intro__form {
   max-width: 570px;
   margin: 0 auto;
 }
-.intro-inputs {
+.intro__inputs {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.intro-form-input {
+.intro__form-input {
   padding-left: 20px;
   margin-bottom: 1.5rem;
   border-radius: 3px;
@@ -213,11 +213,11 @@ h3 {
   min-width: 270px;
   min-height: 50px;
 }
-.intro-form-input::placeholder {
+.intro__form-input::placeholder {
   color: #fff;
   font-size: 14px;
 }
-.intro--form-btn {
+.intro__form-btn {
   background-color: #34C176;
 }
 
@@ -228,14 +228,14 @@ h3 {
 .subscribe h2 {
   margin-bottom: 45px;
 }
-.subscribe-cards {
+.subscribe__cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
   margin-bottom: 43px;
 }
-.subscribe-card {
+.subscribe__card {
   flex-shrink: 1;
   flex-grow: 1;
   flex-basis: calc(33.3333333333% - 50px);
@@ -245,50 +245,50 @@ h3 {
   border-radius: 1rem;
   color: #fff;
 }
-.subscribe-card--bg1 {
+.subscribe__card--bg1 {
   background-image: url(../images/subscribe_1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.subscribe-card--bg2 {
+.subscribe__card--bg2 {
   background-image: url(../images/subscribe_2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.subscribe-card--bg3 {
+.subscribe__card--bg3 {
   background-image: url(../images/subscribe_3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.subscribe-card-name {
+.subscribe__card-name {
   padding-bottom: 200px;
   font-size: 24px;
   line-height: 36px;
   text-transform: uppercase;
   margin-top: 24px;
 }
-.subscribe-cost {
+.subscribe__cost {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   gap: 16px;
   margin-bottom: 40px;
 }
-.subscribe-cost p {
+.subscribe__cost p {
   font-size: 32px;
   font-weight: 400;
   line-height: 150%;
 }
-.subscribe-btn {
+.subscribe__btn {
   background-color: transparent;
   border-radius: 5px;
   border: 1px solid #fff;
   margin-bottom: 64px;
 }
-.subscribe-desc {
+.subscribe__desc {
   font-size: 12.8px;
   font-weight: 400;
   line-height: 150%;
@@ -307,28 +307,28 @@ h3 {
   width: 100%;
   max-height: 286px;
 }
-.news-item {
+.news__item {
   display: flex;
   justify-content: space-between;
   gap: 50px;
   margin-bottom: 64px;
 }
-.news-item:nth-child(2n+1) {
+.news__item:nth-child(2n+1) {
   flex-direction: row-reverse;
 }
-.news-item:last-child {
+.news__item:last-child {
   margin-bottom: 0;
 }
-.news-body h3 {
+.news__body h3 {
   font-size: 30px;
   line-height: 45px;
   font-weight: 400;
   margin-bottom: 30px;
 }
-.news-body p {
+.news__body p {
   margin-bottom: 24px;
 }
-.news-author {
+.news__author {
   display: flex;
   align-items: center;
   gap: 16px;
@@ -338,7 +338,7 @@ h3 {
   margin-bottom: 64px;
   text-transform: uppercase;
 }
-.news-author::before {
+.news__author::before {
   content: "";
   background-image: url(../images/avatar.png);
   background-repeat: no-repeat;
@@ -346,13 +346,13 @@ h3 {
   width: 20px;
   height: 20px;
 }
-.news-author p {
+.news__author p {
   margin-bottom: 0;
 }
-.news-author-name {
+.news__author-name {
   color: #F89202;
 }
-.news-btn {
+.news__btn {
   padding: 16px 30px;
   border-radius: 5px;
   border: 1px solid #CACACA;
@@ -366,14 +366,14 @@ h3 {
   text-align: center;
   margin-bottom: 64px;
 }
-.app-content {
+.app__content {
   display: flex;
   justify-content: space-between;
 }
-.app-text {
+.app__text {
   max-width: 600px;
 }
-.app-btn {
+.app__btn {
   border-radius: 32px;
   padding: 16px 40px;
   font-size: 12.8px;
@@ -416,21 +416,21 @@ h3 {
   font-weight: normal;
   color: #CACACA;
 }
-.footer-top-menu {
+.footer__top-menu {
   padding: 3rem 0;
   display: grid;
   gap: 40px;
   grid-template-columns: repeat(4, 1fr);
 }
-.footer-top-social {
+.footer__top-social {
   display: flex;
   gap: 24px;
   align-items: center;
 }
-.footer-top-social a {
+.footer__top-social a {
   display: block;
 }
-.footer-bottom-menu {
+.footer__bottom-menu {
   padding: 2rem 0;
   display: flex;
   flex-wrap: wrap;
@@ -442,7 +442,7 @@ h3 {
   background-position: center;
   background-size: cover;
 }
-.artist-inner {
+.artist__inner {
   padding: 200px 0;
 }
 .artist h1 {
@@ -452,7 +452,7 @@ h3 {
   margin-bottom: 47px;
   color: #fff;
 }
-.artist-btn--purple {
+.artist__btn--purple {
   background-color: #5328A1;
   width: 200px;
   font-size: 12.8px;
@@ -460,17 +460,17 @@ h3 {
   margin-right: 1.5rem;
   text-align-last: left;
 }
-.artist-btn--purple img {
+.artist__btn--purple img {
   margin-right: 16px;
 }
-.artist-btn--orange {
+.artist__btn--orange {
   background-color: #95390C;
   width: 200px;
   font-size: 12.8px;
   line-height: 19.2px;
   text-align-last: left;
 }
-.artist-btn--orange img {
+.artist__btn--orange img {
   margin-right: 16px;
 }
 
@@ -480,17 +480,17 @@ h3 {
 .tracks h2 {
   margin-bottom: 48px;
 }
-.tracks-items {
+.tracks__items {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 25px 50px;
 }
-.tracks-item {
+.tracks__item {
   display: flex;
   gap: 15px;
   align-items: center;
 }
-.tracks-info {
+.tracks__info {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -516,7 +516,7 @@ h3 {
 .discography h2 {
   margin-bottom: 48px;
 }
-.discography-items {
+.discography__items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px 50px;
@@ -541,12 +541,12 @@ h3 {
 .similar h2 {
   margin-bottom: 48px;
 }
-.similar-items {
+.similar__items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px 50px;
 }
-.similar-item {
+.similar__item {
   text-align: center;
 }
 .similar img {
