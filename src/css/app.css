@@ -563,17 +563,17 @@ h3 {
 }
 
 @media (max-width: 850px) {
-  .news-item {
+  .news__item {
     flex-wrap: wrap;
   }
-  .news-item img {
+  .news__item img {
     width: 100%;
   }
-  .app-content {
+  .app__content {
     flex-wrap: wrap;
     flex-direction: column-reverse;
   }
-  .app-text {
+  .app__text {
     max-width: 100%;
   }
   .app img {
@@ -582,13 +582,13 @@ h3 {
   .app h2 {
     margin-bottom: 48px;
   }
-  .footer-top-menu {
+  .footer__top-menu {
     grid-template-columns: repeat(2, 1fr);
   }
-  .discography-items {
+  .discography__items {
     grid-template-columns: repeat(2, 1fr);
   }
-  .similar-items {
+  .similar__items {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -601,25 +601,25 @@ h3 {
     font-size: 18px;
     line-height: 27px;
   }
-  .menu-list {
+  .menu__list {
     flex-direction: column;
     align-items: start;
     gap: 3px;
   }
-  .menu-list-search {
+  .menu__list-search {
     width: 100%;
     margin-top: 18px;
   }
-  .menu-input {
+  .menu__input {
     width: 100%;
   }
   .logo {
     margin-bottom: 17px;
   }
-  .intro-inner {
+  .intro__inner {
     padding-top: 250px;
   }
-  .intro-form-input {
+  .intro__form-input {
     width: 100%;
   }
   .intro h2 {
@@ -629,36 +629,36 @@ h3 {
     max-width: 374px;
     max-height: 186px;
   }
-  .news-body h3 {
+  .news__body h3 {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 16px;
   }
-  .news-body p {
+  .news__body p {
     margin-bottom: 24px;
   }
-  .news-author {
+  .news__author {
     margin-bottom: 48px;
   }
-  .news-author p {
+  .news__author p {
     margin-bottom: 0;
   }
   .footer::before {
     bottom: 245px;
   }
-  .footer-top-menu {
+  .footer__top-menu {
     grid-template-columns: repeat(1, 1fr);
   }
-  .footer-bottom-menu {
+  .footer__bottom-menu {
     flex-direction: column;
   }
-  .artist-inner {
+  .artist__inner {
     padding: 224px 0;
   }
-  .artist-btn--purple {
+  .artist__btn--purple {
     margin-bottom: 24px;
   }
-  .tracks-items {
+  .tracks__items {
     grid-template-columns: repeat(1, 1fr);
   }
   .discography img, .similar img {
