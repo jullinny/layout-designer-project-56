@@ -349,7 +349,7 @@ h3 {
   font-size: 12px;
   font-weight: 400;
   line-height: 19.2px;
-  margin-bottom: 64px;
+  margin-bottom: 65px;
   text-transform: uppercase;
 }
 .news__author::before {
@@ -592,10 +592,10 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
   }
   .discography__items {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 137px 137px;
   }
   .similar__items {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 137px 137px;
   }
 }
 @media (max-width: 426px) {
@@ -638,6 +638,7 @@ h3 {
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
+    margin-top: 16px;
   }
   .news img {
     max-width: 374px;
@@ -651,12 +652,6 @@ h3 {
   .news__body p {
     margin-bottom: 24px;
   }
-  .news__author {
-    margin-bottom: 48px;
-  }
-  .news__author p {
-    margin-bottom: 0;
-  }
   .app img {
     margin-bottom: 16px;
   }
@@ -665,6 +660,7 @@ h3 {
   }
   .footer__top-menu {
     grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
   }
   .footer__bottom-menu {
     flex-direction: column;
