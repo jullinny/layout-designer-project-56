@@ -1,15 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music box by jullinny</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Music box by jullinny</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/app.css">
 </head>
+
 <body>
-   
+	<header class="header">
+		<nav class="menu">
+			<ul class="menu__list">
+				<li class="menu__list-item logo active">Music Box</li>
+				<li class="menu__list-item active">Главная</li>
+				<li class="menu__list-item">Каталог</li>
+				<li class="menu__list-item">Исполнители</li>
+				<li class="menu__list-item">Контакты</li>
+				<li class="menu__list-search">
+					<form class="menu__form">
+						<label class="hidden" for="search">Поиск по сайту</label>
+						<input class="menu__input" id="serach" type="search" placeholder="Поиск...">
+					</form>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section class="artist">
+		<div class="container">
+			<div class="artist__inner">
+				<h1>Morten Harket</h1>
+				<p>24 875 поклонников</p>
+				<button class="artist__btn--purple btn">
+					<img src="../src/images/play-button.svg" alt="">
+					МИКС</button>
+				<button class="artist__btn--orange btn">
+					<img src="../src/images/heart.svg" alt="">
+					В ИЗБРАННОЕ</button>
+			</div>
+		</div>
+	</section>
+
 </body>
+
 </html>

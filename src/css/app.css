@@ -432,6 +432,43 @@ h3 {
   gap: 16px;
 }
 
+.artist {
+  background-image: url(../images/Morten\ Harket.png);
+  background-position: center;
+  background-size: cover;
+}
+.artist__inner {
+  padding: 200px 0;
+}
+.artist h1 {
+  margin-bottom: 16px;
+}
+.artist p {
+  margin-bottom: 47px;
+  color: #fff;
+}
+.artist__btn--purple {
+  background-color: #5328A1;
+  width: 200px;
+  font-size: 12.8px;
+  line-height: 19.2px;
+  margin-right: 1.5rem;
+  text-align-last: left;
+}
+.artist__btn--purple img {
+  margin-right: 16px;
+}
+.artist__btn--orange {
+  background-color: #95390C;
+  width: 200px;
+  font-size: 12.8px;
+  line-height: 19.2px;
+  text-align-last: left;
+}
+.artist__btn--orange img {
+  margin-right: 16px;
+}
+
 @media (max-width: 850px) {
   .news__item {
     flex-wrap: wrap;
@@ -511,5 +548,11 @@ h3 {
   }
   .footer__bottom-menu {
     flex-direction: column;
+  }
+  .artist__inner {
+    padding: 224px 0;
+  }
+  .artist__btn--purple {
+    margin-bottom: 24px;
   }
 }/*# sourceMappingURL=app.css.map */
