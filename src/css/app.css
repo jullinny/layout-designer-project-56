@@ -469,6 +469,42 @@ h3 {
   margin-right: 16px;
 }
 
+.tracks {
+  padding-top: 100px;
+}
+.tracks h2 {
+  margin-bottom: 48px;
+}
+.tracks__items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px 50px;
+}
+.tracks__item {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.tracks__info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tracks img {
+  width: 55px;
+  height: 55px;
+}
+.tracks h3 {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: bold;
+}
+.tracks p {
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
+
 @media (max-width: 850px) {
   .news__item {
     flex-wrap: wrap;
@@ -554,5 +590,8 @@ h3 {
   }
   .artist__btn--purple {
     margin-bottom: 24px;
+  }
+  .tracks__items {
+    grid-template-columns: repeat(1, 1fr);
   }
 }/*# sourceMappingURL=app.css.map */
