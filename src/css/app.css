@@ -109,6 +109,14 @@ h3 {
   text-transform: uppercase;
 }
 
+.pt-100 {
+  padding-top: 100px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
 .header {
   position: absolute;
   top: 25px;
@@ -222,7 +230,6 @@ h3 {
 }
 
 .subscribe {
-  padding-top: 100px;
   text-align: center;
 }
 .subscribe h2 {
@@ -295,9 +302,6 @@ h3 {
   margin-bottom: 64px;
 }
 
-.news {
-  padding-top: 100px;
-}
 .news h2 {
   margin-bottom: 47px;
   text-align: center;
@@ -358,10 +362,6 @@ h3 {
   border: 1px solid #CACACA;
 }
 
-.app {
-  padding-top: 100px;
-  margin-bottom: 100px;
-}
 .app h2 {
   text-align: center;
   margin-bottom: 64px;
@@ -474,9 +474,6 @@ h3 {
   margin-right: 16px;
 }
 
-.tracks {
-  padding-top: 100px;
-}
 .tracks h2 {
   margin-bottom: 48px;
 }
@@ -510,9 +507,6 @@ h3 {
   line-height: 19.2px;
 }
 
-.discography {
-  padding-top: 100px;
-}
 .discography h2 {
   margin-bottom: 48px;
 }
