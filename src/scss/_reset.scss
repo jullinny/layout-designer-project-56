@@ -5,19 +5,16 @@
 }
 
 *,
-*:before,
+*:before{
+    box-sizing: border-box;
+}
+
 *:after {
     box-sizing: border-box;
 }
 
 :focus,
 :active {
-    outline: none;
-}
-
-a,
-a:focus,
-a:active {
     outline: none;
 }
 
