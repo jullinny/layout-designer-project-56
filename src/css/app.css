@@ -268,19 +268,16 @@ h3 {
 .subscribe__card--bg1 {
   background-image: url(../images/subscribe_1.png);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 .subscribe__card--bg2 {
   background-image: url(../images/subscribe_2.png);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 .subscribe__card--bg3 {
   background-image: url(../images/subscribe_3.png);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 .subscribe__card-name {
@@ -351,7 +348,7 @@ h3 {
   display: flex;
   align-items: center;
   gap: 16px;
-  font-size: 12px;
+  font-size: 12.8px;
   font-weight: 400;
   line-height: 19.2px;
   margin-bottom: 65px;
@@ -651,6 +648,9 @@ h3 {
     line-height: 24px;
     margin-top: 16px;
   }
+  .news h2 {
+    margin-bottom: 48px;
+  }
   .news img {
     max-width: 374px;
     max-height: 186px;
@@ -659,6 +659,7 @@ h3 {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 16px;
+    text-transform: capitalize;
   }
   .news__body p {
     margin-bottom: 24px;
