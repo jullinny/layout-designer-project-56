@@ -1,0 +1,201 @@
+@media (max-width: 850px) {
+  .news {
+    &__item {
+      flex-wrap: wrap;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .app {
+    &__content {
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+    }
+
+    &__text {
+      max-width: 100%;
+    }
+
+    img {
+      margin: 0 auto;
+    }
+
+    h2 {
+      margin-bottom: 48px;
+    }
+  }
+
+  .footer {
+    &__top-menu {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .discography {
+    &__items {
+      grid-template-columns: 137px 137px;
+    }
+  }
+
+  .similar {
+    &__items {
+      grid-template-columns: 137px 137px;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  .header {
+    top: 32px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .menu {
+    &__list {
+      flex-direction: column;
+      align-items: start;
+      gap: 3px;
+    }
+
+    &__list-item {
+      line-height: 1.2;
+      font-weight: 700;
+    }
+
+    &__list-search {
+      width: 100%;
+      margin-top: 18px;
+    }
+
+    &__input {
+      width: 100%;
+    }
+  }
+
+  .logo {
+    margin-bottom: 23px;
+  }
+
+  .intro {
+    &__inner {
+      padding-top: 250px;
+    }
+
+    &__form-input {
+      width: 100%;
+    }
+
+    h2 {
+      margin-bottom: 16px;
+    }
+  }
+
+  .subscribe {
+    h2 {
+      margin-bottom: 46px;
+    }
+
+    &__card-name {
+      font-size: 16px;
+      line-height: 24px;
+      margin-top: 16px;
+    }
+  }
+
+  .news {
+    h2 {
+      margin-bottom: 48px;
+    }
+
+    img {
+      max-width: 374px;
+      max-height: 186px;
+    }
+
+    &__body {
+      h3 {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 16px;
+        text-transform: capitalize;
+      }
+
+      p {
+        margin-bottom: 24px;
+      }
+    }
+
+    &__item {
+      margin-bottom: 80px;
+    }
+
+    &__author {
+      p {
+        margin: 0;
+      }
+    }
+
+    &__btn {
+      color: $gray;
+    }
+  }
+
+  .app {
+    img {
+      margin-bottom: 16px;
+    }
+  }
+
+  .footer {
+    &::before {
+      bottom: 271px;
+    }
+
+    &__top-menu {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 30px;
+    }
+
+    &__top-item {
+      max-width: 374px;
+    }
+
+    &__bottom-menu {
+      flex-direction: column;
+    }
+  }
+
+  .artist {
+    &__inner {
+      padding: 224px 0;
+    }
+    &__btn--purple {
+      margin-bottom: 24px;
+    }
+  }
+
+  .tracks {
+    &__items {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  .discography, .similar {
+    img {
+      max-width: 137px;
+      max-height: 137px;
+    }
+  }
+}

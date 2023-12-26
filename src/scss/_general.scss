@@ -1,0 +1,70 @@
+@import 'variables';
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    color: $gray;
+    background-color: $black;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $white;
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 57px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $white;
+}
+
+h3 {
+    color: $white;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+}
+
+.container {
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.btn {
+    width: 100%;
+    padding: 20px 30px;
+    border-radius: 5px;
+    color: $white;
+    font-family: Arial;
+    font-size: 13.3px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.pb-16 {
+    padding-bottom: 16px;
+}
+
+.pb-203 {
+    padding-bottom: 203px;
+}
