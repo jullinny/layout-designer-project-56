@@ -4,15 +4,11 @@
     border: 0;
 }
 
-* {
+*::before {
     box-sizing: border-box;
 }
 
-*:before {
-    box-sizing: border-box;
-}
-
-*:after {
+*::after {
     box-sizing: border-box;
 }
 
