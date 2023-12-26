@@ -125,6 +125,10 @@ h3 {
   padding-bottom: 16px;
 }
 
+.pb-203 {
+  padding-bottom: 203px;
+}
+
 .header {
   position: absolute;
   top: 27px;
@@ -639,6 +643,9 @@ h3 {
   .intro h2 {
     margin-bottom: 16px;
   }
+  .subscribe h2 {
+    margin-bottom: 46px;
+  }
   .subscribe__card-name {
     font-size: 16px;
     line-height: 24px;
@@ -655,6 +662,9 @@ h3 {
   }
   .news__body p {
     margin-bottom: 24px;
+  }
+  .news__item {
+    margin-bottom: 81px;
   }
   .news__author p {
     margin: 0;
