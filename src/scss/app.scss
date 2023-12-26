@@ -46,7 +46,7 @@
 
     &::placeholder {
       color: $placeholder;
-      font-family: Arial;
+      font-family: Arial, sans-serif;
       font-size: 13.3px;
       font-weight: 400;
       text-transform: uppercase;
@@ -63,7 +63,7 @@
 
   &::before {
     content: "";
-    background: url(../images/logo.svg);
+    background: url("../images/logo.svg");
     position: absolute;
     top: 50%;
     left: 0;
@@ -86,10 +86,10 @@
 
 // header end
 
-//intro start
+// intro start
 
 .intro {
-  background: url(../images/banner.png) no-repeat;
+  background: url("../images/banner.png") no-repeat;
   background-size: cover;
   background-position: center;
   color: $white;
@@ -139,7 +139,7 @@
   }
 }
 
-//intro end
+// intro end
 
 // subscribe start
 
@@ -162,7 +162,7 @@
   &__card {
     flex-shrink: 1;
     flex-grow: 1;
-    flex-basis: calc((100% / 3) - 50px);
+    flex: calc((100% / 3) - 50px);
     display: flex;
     flex-direction: column;
     padding:0 1.5rem;
@@ -171,19 +171,19 @@
   }
 
   &__card--bg1 {
-    background-image: url(../images/subscribe_1.png);
+    background-image: url('../images/subscribe_1.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   &__card--bg2 {
-    background-image: url(../images/subscribe_2.png);
+    background-image: url('../images/subscribe_2.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   &__card--bg3 {
-    background-image: url(../images/subscribe_3.png);
+    background-image: url('../images/subscribe_3.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -279,7 +279,7 @@
 
     &::before {
       content: "";
-      background-image: url(../images/avatar.png);
+      background-image: url('../images/avatar.png');
       background-repeat: no-repeat;
       background-position: center;
       width: 19px;
@@ -398,7 +398,7 @@
 // page 2 start 
 
 .artist {
-  background-image: url(../images/Morten\ Harket.png);
+  background-image: url('../images/Morten\ Harket.png');
   background-position: center;
   background-size: cover;
 
@@ -544,4 +544,4 @@
   }
 }
 
-@import "media";
+@import "media.scss";

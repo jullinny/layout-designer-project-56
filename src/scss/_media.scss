@@ -1,4 +1,4 @@
-@media (max-width: 850px) {
+@media (width: 850px) {
   .news {
     &__item {
       flex-wrap: wrap;
@@ -11,8 +11,7 @@
 
   .app {
     &__content {
-      flex-wrap: wrap;
-      flex-direction: column-reverse;
+      flex-flow: column-reverse wrap;
     }
 
     &__text {
@@ -47,7 +46,7 @@
   }
 }
 
-@media (max-width: 426px) {
+@media (width: 426px) {
   .header {
     top: 32px;
   }
@@ -181,6 +180,7 @@
     &__inner {
       padding: 224px 0;
     }
+    
     &__btn--purple {
       margin-bottom: 24px;
     }
